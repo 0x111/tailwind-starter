@@ -1,14 +1,15 @@
 import React from "react";
+import SearchButton from "./components/SearchButton";
+import Navigation from "./components/Navigation";
 
 class App extends React.Component {
     render() {
         const { name } = this.props;
         return (
-            <>
-                <h1 className="text-4xl text-white bg-black">
-                    Hello {name}
-                </h1>
-            </>
+            <div className='mx-auto h-screen bg-gray-100'>
+                <Navigation />
+                <SearchButton />
+            </div>
         );
     }
 }
