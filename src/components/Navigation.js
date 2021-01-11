@@ -2,10 +2,12 @@ import React from 'react';
 
 const Navigation = () => {
     return (
-        <div className="sticky top-0 shadow bg-red-500 md:bg-blue-600">
-            <nav className="flex items-center justify-between h-16 mx-auto md:bg-blue-600">
+        <div className="sticky top-0 bg-red-500 shadow z-30">
+            <nav className="py-5 md:py-10 flex items-center justify-between h-16 z-50 md:max-w-screen-lg mx-auto">
 
-                <h1>Logo</h1>
+                    <a className="mx-auto md:mx-0">
+                        <h1>Hello</h1>
+                    </a>
 
             </nav>
         </div>

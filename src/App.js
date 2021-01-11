@@ -7,8 +7,7 @@ class App extends React.Component {
         const { name } = this.props;
         return (
             <div className='mx-auto h-screen bg-gray-100'>
-                <Navigation />
-                <SearchButton />
+               <Navigation />
             </div>
         );
     }
